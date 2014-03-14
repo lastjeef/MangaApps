@@ -66,7 +66,7 @@ public class MangaToPDF {
 				f.delete();
 
 			} catch (Exception e) {
-				System.out.println("cannot delete " + f.getName());
+				System.out.println("Cannot delete " + f.getName());
 			}
 
 		}
